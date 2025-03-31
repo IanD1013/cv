@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ name }} - {{ title }} | Curriculum Vitae</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container page">
+      <div class="row">
+        <div class="col-md-6 col-print-6">
+        <h1>{{ name }}</h1>
+        <h3>{{ title }}</h3>
+          <p>
+            <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
+          </p>
+          <p>
+            <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span>
+            <span class="print">
+              The online version is available at <a href="{{ baseUrl }}" class="text-nowrap"><i class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a>
+            </span>
+          </p>
+        </div>
+        <div class="facts-section col-md-6 col-print-6">
+          <dl class="row">
+            {{#each facts}}
+            <dt class="col-md-3">{{ @key }}</dt>
+            <dd class="col-md-9">{{{ this }}}</dd>
+            {{/each}}
+          </dl>
+        </div>
+      </div>
+
+      <p class="screen">
+        I'm passionate about using technology to solve problems and create innovative solutions. I have experienced a wide range different of
+        technologies ranging from mobile to web throughout all phases of the Software Development Lifecycle. I contribute to the design of high 
+        performing solutions and scale-able architecture. I thrive in being adaptable in different environments and strive to keep my clients satisfied.
+      </p>
+
+      <h2>Skills</h2>
+      <div class="skills-section mb-4">
+        {{#each skills}}
+        <div>
+          <b>{{ name }}</b>
+          <ul>
+            {{#each examples}}
+            <li>{{ this }}</li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/each}}
+      </div>
+
+      <h2>Professional Experience</h2>
+      <div class="experience-section">
+        {{#each experience}}
+        <div class="mb-4 {{ className }}">
+          <h5>{{ company }}</h5>
+          <div>
+          {{#each roles}}
+            <h6 class="text-muted">
+              <b>{{ title }}</b> | <b>{{ ../location }}</b> <span class="experience-right">{{ start }} &mdash; {{ end }}</span>
+            </h6>
+            {{ blurb }}
+            <ul>
+              {{#each items}}
+              <li>{{ this }}</li>
+              {{/each}}
+            </ul>
+          {{/each}} 
+          </div>                   
+
+          <div>
+            {{#each badges }}
+              <span class="badge badge-primary">{{ this }}</span>
+            {{/each}}
+          </div>
+        </div>
+        {{/each}}
+      </div>
+
+      <h2>Education</h2>
+      <div class="education-section mb-4">
+        <b>University of Auckland</b> - New Zealand (Jul 2023 - Feb 2025)
+        <p>Master of Science (Information Technology)</p>
+
+        <b>University of Maryland, College Park</b> - United States (Aug 2020 - May 2022)
+        <p>Master of Science (Scientific Computation)</p>
+
+        <b>University of Maryland, College Park</b> - United States (Aug 2016 - May 2020)
+        <p>Bachelor of Science in Mathematics, Minor in Physics & CS</p>
+      </div>
+
+      <!-- <h3>Additional Experience</h3>
+
+      {{#each experience}}
+      <div class="card mt-4">
+          <div class="card-body">
+              <div class="mb-2"><strong>{{ header }}</strong></div>
+
+
+              <div>
+                  {{#each skills }}
+                  <span class="badge badge-primary">{{ this }}</span>
+                  {{/each}}
+              </div>
+          </div>
+      </div>
+      {{/each}} -->
+
+      <h2>Interests</h2>
+      <div class="interests-section mb-4">
+        {{#each interests}}
+        <span class="badge badge-primary">{{ this }}</span>
+        {{/each}}
+      </div>
+
+      <h2>Referees</h2>
+      <p>Available upon request.</p>
+    </div>
+  </body>
+</html>

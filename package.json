@@ -1,0 +1,35 @@
+{
+  "name": "cv",
+  "description": "Curriculum Vitae - Ian Dong",
+  "scripts": {
+    "build": "node src/build.js",
+    "watch": "chokidar \"src/**/*\" -i \"dist/**/*\" -c \"npm run build\"",
+    "prestart": "npm run build",
+    "start": "concurrently \"npm run watch\" \"live-server dist\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanD1013/cv.git"
+  },
+  "keywords": [
+    "cv",
+    "resume"
+  ],
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^9.1.2",
+    "dayjs": "^1.11.4",
+    "fs-extra": "^10.1.0",
+    "gh-pages": "^6.0.0",
+    "git-repo-name": "^1.0.1",
+    "git-username": "^1.0.0",
+    "handlebars": "^4.7.7",
+    "live-server": "^1.2.2",
+    "markdown": "^0.5.0",
+    "puppeteer": "^24.1.1",
+    "speakingurl": "^14.0.1",
+    "watch": "^1.0.2"
+  }
+}
