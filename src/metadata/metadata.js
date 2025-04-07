@@ -61,15 +61,18 @@ module.exports = {
           title: 'Full Stack Developer (Part-time)',
           start: 'Mar 2024',
           end: 'Current',
-          blurb: 'Blurb test',
+          blurb: 'Contributed to full-stack development of a geospatial visualization platform, focusing on React frontend features and .NET backend optimizations while implementing modern development practices.',
           items: [
-            'Test1',
-            'Test2',
-            'Test3'
+            'Enhanced and maintained a React-based frontend application, implementing secure user authentication flows using Microsoft Authentication Library (MSAL) and managing session states.',
+            'Optimized 2D/3D geospatial visualization features using ArcGIS Maps SDK, including camera controls, layer management, and interactive map elements.',
+            'Developed and refined video sequence functionality for 3D map presentations, implementing smooth camera transitions and layer toggling for improved user experience.',
+            'Contributed to the integration of third-party services (Giraffe platform) by implementing data synchronization and exchange mechanisms between frontend and backend systems.',
+            'Improved backend architecture by implementing SOLID principles, including service registration refactoring and modular extension methods, resulting in more maintainable and testable code.',
+            'Enhanced system performance through implementation of advanced C# features including IAsyncEnumerable for streaming responses, compiled queries, and efficient batch processing patterns.'
           ]
         }
       ],
-      badges: ['Powershell', 'Bash', 'Pulseway', 'Microsoft 365 System Administrator', 'Entra ID', 'Windows', 'Linux', 'Microsoft Teams'], 
+      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'SQL Server', 'Entity Framework', 'IoC Container', 'React', 'Typescript', 'ArcGIS Maps SDK for JavaScript', 'Docker', 'Azure DevOps CI/CD' ], 
     },
     {
       company: 'Civix',
@@ -85,7 +88,7 @@ module.exports = {
             'Promoted the use of an online issue tracker and maintained a comprehensive IT knowledge base by creating and updating documentation, streamlining support and improving response times.',
             'Facilitated staff onboarding and offboarding, including laptop/workstation setup and access provisioning.',
             'Installed, configured, and maintained computer hardware, software, networks, servers, and peripherals.',
-            'Resolved hardware, software, and network connectivity issues via phone, video call, ticketing system, and in-person support.',
+            'Resolved hardware, software, and network connectivity issues via phone, video call, ticketing system, Pulseway remote control, and in-person support.',
             'Collaborated with cross-functional teams to ensure smooth IT operations across departments.',
             'Demonstrated strong multitasking and communication skills while managing concurrent support requests.'           
           ]
