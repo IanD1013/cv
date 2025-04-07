@@ -138,3 +138,20 @@ a .fa {
 .experience-right {
   float: right;
 }
+
+/* Experience section styling */
+.experience-section .blurb {
+  font-style: italic;
+  color: #555;
+  border-left: 3px solid #007bff;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+@media print {
+  .experience-section .blurb {
+    border-left: 2px solid #666;
+    color: #444;
+  }
+}
