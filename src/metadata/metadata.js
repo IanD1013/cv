@@ -5,6 +5,9 @@ module.exports = {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
                   <i class="fa fa-home"></i>Auckland | open to relocate
                 </a>`,
+    'Email': `<a href="mailto:ian.tung1013@gmail.com">
+                <i class="fa fa-envelope"></i> ian.tung1013@gmail.com
+              </a>`,
     'LinkedIn': `<a href="https://www.linkedin.com/in/iandong1013/">
                   <i class="fa fa-linkedin"></i> iandong1013
                 </a>`,
@@ -13,10 +16,7 @@ module.exports = {
                 </a>`,
     'Portfolio': `<a href="https://portfolio-iandong.netlify.app/">
                   <i class="fa fa-globe"></i> website
-                </a>`,
-    'Email': `<a href="mailto:ian.tung1013@gmail.com">
-                <i class="fa fa-envelope"></i> ian.tung1013@gmail.com
-              </a>`
+                </a>`
   },
   skills: [
     {
