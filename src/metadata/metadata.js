@@ -24,7 +24,7 @@ module.exports = {
       examples: [
         'Microsoft stack: C#, ASP.NET Core, Web API, MVC, EntityFramework, .NET MAUI.',
         'Modern web stack: JavaScript, TypeScript, NodeJS, React, Redux, NextJS, HTML5, CSS3, MongoDB, Vitest.',
-        'UI/UX: Figma, Shadcn UI, Tailwind CSS, Material UI, Chakra UI, Bootstrap.',
+        'UI/UX: Figma, Shadcn UI, Tailwind CSS, Material UI, Bootstrap.',
         'Infrastructure: Azure, AWS, SQL Server, Docker, Kubernetes.',
         'Other: Java, Spring Boot, Python, Django, C, Matlab, ArcGIS, Blender.',
         'Experienced in web development & integration using industry standard technologies and frameworks.',
