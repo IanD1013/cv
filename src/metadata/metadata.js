@@ -3,19 +3,19 @@ module.exports = {
   title: 'Full Stack Junior Developer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
-                  <i class="fa fa-home"></i>Auckland | open to relocate
+                  <i class="fa fa-home" style="font-size: 1.2em;"></i>Auckland | open to relocate
                 </a>`,
     'Email': `<a href="mailto:ian.tung1013@gmail.com">
-                <i class="fa fa-envelope"></i> ian.tung1013@gmail.com
+                <i class="fa fa-envelope" style="font-size: 0.9em;"></i> ian.tung1013@gmail.com
               </a>`,
     'LinkedIn': `<a href="https://www.linkedin.com/in/iandong1013/">
                   <i class="fa fa-linkedin"></i> iandong1013
                 </a>`,
     'GitHub': `<a href="https://github.com/IanD1013">
-                  <i class="fa fa-github"></i> IanD1013
+                  <i class="fa fa-github" style="font-size: 1.1em;"></i> IanD1013
                 </a>`,
     'Portfolio': `<a href="https://portfolio-iandong.netlify.app/">
-                  <i class="fa fa-globe"></i> website
+                  <i class="fa fa-user" style="font-size: 1.1em;"></i> website
                 </a>`
   },
   skills: [
