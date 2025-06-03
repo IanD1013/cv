@@ -60,7 +60,7 @@ module.exports = {
         {
           title: 'Full Stack Developer (Part-time)',
           start: 'Mar 2024',
-          end: 'Current',
+          end: 'May 2025',
           blurb: 'Contributed to full-stack development of a geospatial visualization platform, focusing on React frontend features and .NET backend optimizations while implementing modern development practices.',
           items: [
             'Enhanced and maintained a React-based frontend application, implementing secure user authentication flows using Microsoft Authentication Library (MSAL) and managing session states.',
@@ -80,7 +80,7 @@ module.exports = {
       roles: [
         {
           title: 'IT Support Technician (Part-time)',
-          start: 'Mar 2024',
+          start: 'May 2024',
           end: 'Current',
           blurb: 'Member of a high performing team that delivers technical support to Civix engineers, surveyors, planners, and administrative staff, resolving hardware and software issues.',
           items: [
