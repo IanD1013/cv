@@ -80,8 +80,8 @@ module.exports = {
       roles: [
         {
           title: 'IT Support Technician (Part-time)',
-          start: 'May 2024',
-          end: 'Current',
+          start: 'Mar 2024',
+          end: 'May 2025',
           blurb: 'Member of a high performing team that delivers technical support to Civix engineers, surveyors, planners, and administrative staff, resolving hardware and software issues.',
           items: [
             'Automated routine IT tasks using Pulseway and custom scripts (PowerShell, batch) to improve efficiency and reduce manual intervention.',
