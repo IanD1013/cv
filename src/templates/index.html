@@ -67,7 +67,7 @@
             <p class="blurb">{{ blurb }}</p>
             <ul>
               {{#each items}}
-              <li>{{ this }}</li>
+              <li>{{{ this }}}</li>
               {{/each}}
             </ul>
           {{/each}} 
@@ -116,7 +116,21 @@
       </div>
 
       <h2>Referees</h2>
-      <p>Available upon request.</p>
+      <dl class="row referees-section mb-4">
+        <dt class="col-md-3 font-weight-bold">George Stirling</dt>
+        <dd class="col-md-9">
+          Founder &amp; CTO, allsite.ai
+        </dd>
+        <dt class="col-md-3 font-weight-bold">Raj Patel</dt>
+        <dd class="col-md-9">
+          Software Engineering Colleague, allsite.ai
+        </dd>
+        <dt class="col-md-3 font-weight-bold">Sujin Lu</dt>
+        <dd class="col-md-9">
+          IT Consultant &amp; Operations Manager, Spiritx
+        </dd>
+      </dl>
+      <p class="text-muted font-italic">* Direct contact details of the above referees are available upon request.</p>
     </div>
   </body>
 </html>

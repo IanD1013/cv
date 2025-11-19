@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Ian Dong',
-  title: 'Full Stack Junior Developer',
+  title: 'Junior Software Engineer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
                   <i class="fa fa-home" style="font-size: 1.2em;"></i>Auckland | open to relocate
@@ -22,11 +22,11 @@ module.exports = {
     {
       name: 'Technical Skills',
       examples: [
-        'Microsoft stack: C#, ASP.NET Core, Web API, MVC, EntityFramework, .NET MAUI.',
+        'Microsoft stack: C#, .NET, Web API, MVC, EntityFramework, .NET MAUI.',
         'Modern web stack: JavaScript, TypeScript, NodeJS, React, Redux, NextJS, HTML5, CSS3, MongoDB, Vitest.',
-        'UI/UX: Figma, Shadcn UI, Tailwind CSS, Material UI, Bootstrap.',
-        'Infrastructure: Azure, AWS, SQL Server, Docker, Kubernetes.',
-        'Other: Java, Spring Boot, Python, Django, C, Matlab, ArcGIS, Blender.',
+        'UI/UX: Figma, Shadcn UI, Tailwind CSS, SCSS, Material UI, Bootstrap.',
+        'Infrastructure: Azure, AWS, MySQL, SQL Server, Docker, Kubernetes.',
+        'Other: Java, Spring Boot, Python, Django, React Native, C, Matlab, ArcGIS, Blender.',
         'Experienced in web development & integration using industry standard technologies and frameworks.',
         'Experienced with all stages of the Software Development Life cycle and agile methodologies.',
         'Experienced and knowledge of best practices for software design and architecture.'
@@ -54,6 +54,25 @@ module.exports = {
   ],
   experience: [
     {
+      company: 'Spiritx',
+      location: 'Auckland',
+      roles: [
+        {
+          title: 'Software Engineer (Full-time)',
+          start: 'Jun 2025',
+          end: 'Current',
+          blurb: 'Embedded within a cross-product engineering team spanning Kiwi Square (web), Insurspy (web), and Fresh Direct (React Native), shipping features from architecture through rollout—owning Kiwi Square’s casual-job pillar, delivering Insurspy’s Compare Power flow, and guiding Fresh Direct through its app-store launch.',
+          items: [
+            'Owned <a href="https://kiwisquare.co.nz/" target="_blank" rel="noreferrer noopener">Kiwi Square</a>’s casual-job pillar end-to-end, pairing a localized Next.js/TypeScript + Redux experience with .NET 8/EF Core APIs and ingestion pipelines so seekers can search, filter, and save thousands of live NZ listings.',
+            'Designed and maintained 20+ Python/MySQL crawlers that harvest roles from major NZ employers, deduplicate overlapping records, and auto-expire stale posts to keep the catalogue current.',
+            'Delivered <a href="https://insurspy.co.nz/" target="_blank" rel="noreferrer noopener">Insurspy</a>’s NZ power-comparison journey by wiring address search, intake flows, and results screens into the established Next.js/MUI design system and API surface.',
+            'Led the <a href="https://play.google.com/store/apps/details?id=nz.co.freshdirect" target="_blank" rel="noreferrer noopener">Fresh Direct</a> release track, hardening the React Native app, managing signing credentials, and steering submissions through App Store Connect and Google Play Console.'
+          ]
+        }
+      ],
+      badges: ['C#', '.NET', 'Rest API', 'MySQL', 'Entity Framework Core', 'Dependency Injection', 'Clean Architecture', 'JWT', 'NextJS', 'Redux', 'Typescript', 'Python', 'Web Crawler', 'React Native', 'Jira'], 
+    },
+    {
       company: 'Allsite.ai',
       location: 'Auckland',
       roles: [
@@ -72,7 +91,7 @@ module.exports = {
           ]
         }
       ],
-      badges: ['C#', 'NET Core', 'ASP.NET Web API', 'SQL Server', 'Entity Framework', 'IoC Container', 'React', 'Typescript', 'ArcGIS Maps SDK for JavaScript', 'Docker', 'Azure DevOps CI/CD' ], 
+      badges: ['C#', '.NET', 'ASP.NET Web API', 'SQL Server', 'Entity Framework Core', 'IoC Container', 'React', 'Typescript', 'ArcGIS Maps SDK for JavaScript', 'Docker', 'Azure DevOps CI/CD' ], 
     },
     {
       company: 'Civix',
@@ -106,12 +125,8 @@ module.exports = {
           end: 'Feb 2024',
           blurb: 'Developed and implemented advanced geospatial analysis solutions using machine learning, computer vision, and GIS technologies to optimize urban planning and infrastructure design processes.',
           items: [
-            'Developed a Python script using ArcPy and R-trees to reduce false positives in identifying driveways.',
-            'Built a data pipeline to process 400GB of raw parcel data, integrating road information and supporting multiple file formats including zip and gdb.',
-            'Analyzed housing parcel connectivity with Graph Neural Networks to support layout design and accurately determine centroid locations.',
             'Modified a UNet++ model to detect impervious surfaces in New Zealand with 95% accuracy.',
             'Created a predictive function to interpolate and forecast rainfall data across multiple years.',
-            'Implemented a kinematic model for vehicle path tracking to optimize road width and enable dynamic control.',
             'Engineered a Python script utilizing Unity, Blender, and Esri SDKs to automate the creation of dynamic promotional videos showcasing ArcGIS 3D scenes.',
             'Contributed to internal knowledge sharing by presenting domain concepts and system architecture in a team-wide learning session, promoting cross-team understanding and collaboration.',
             'Delivered a final internship presentation to the Allsite.ai team and Civix engineers, showcasing project outcomes and impact; recognized by company leadership in a public post celebrating intern contributions.'
