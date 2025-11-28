@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Ian Dong',
-  title: 'Junior Software Engineer',
+  title: 'Software Engineer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
                   <i class="fa fa-home" style="font-size: 1.2em;"></i>Auckland | open to relocate
