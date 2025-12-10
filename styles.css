@@ -49,6 +49,23 @@
     margin-bottom: 1rem;
   }
 
+  h2.section-divider {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  h2.section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: currentColor;
+    margin-left: calc(1rem - 12px);
+    margin-bottom: calc(0.2rem + 4px);
+  }
+
   dt {
     font-weight: normal;
   }
@@ -153,5 +170,17 @@ a .fa {
   .experience-section .blurb {
     border-left: 2px solid #666;
     color: #444;
+  }
+}
+
+/* Referees section - prevent wrapping of name and relationship */
+.referees-section dt {
+  white-space: nowrap;
+  padding-right: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .referees-section dt {
+    padding-right: 5rem;
   }
 }
