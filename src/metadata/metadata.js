@@ -136,5 +136,5 @@ module.exports = {
       badges: ['Python', 'ArcPy', 'Machine Learning', 'CNN', 'GNN', 'PyTorch', 'Unity', 'Blender', 'ArcGIS', 'ArcGIS Maps SDK for Unity', 'Data Pipeline'], 
     },
   ],
-  interests: ['Technology', 'Sports & Fitness', 'History', 'Politics', 'Philosophy']
+  additionalInformation: 'I currently hold a <b>three-year post-study work visa</b> valid until June 25, 2028. I am available to commence employment with two weeks\' notice to my current employer.'
 };
