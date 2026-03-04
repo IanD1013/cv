@@ -3,7 +3,7 @@ module.exports = {
   title: 'Software Engineer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
-                  <i class="fa fa-home" style="font-size: 1.2em;"></i>Auckland | open to relocate
+                  <i class="fa fa-home" style="font-size: 1.2em;"></i>Wellington
                 </a>`,
     'Email': `<a href="mailto:ian.tung1013@gmail.com">
                 <i class="fa fa-envelope" style="font-size: 0.9em;"></i> ian.tung1013@gmail.com
