@@ -3,7 +3,7 @@ module.exports = {
   title: 'Software Engineer',
   facts: {
     'Residence': `<a href="https://goo.gl/maps/kToTNMXQgnmXDa5e8">
-                  <i class="fa fa-home" style="font-size: 1.2em;"></i>Wellington
+                  <i class="fa fa-home" style="font-size: 1.2em;"></i>Wellington | Open to Relocate
                 </a>`,
     'Email': `<a href="mailto:ian.tung1013@gmail.com">
                 <i class="fa fa-envelope" style="font-size: 0.9em;"></i> ian.tung1013@gmail.com
@@ -136,5 +136,5 @@ module.exports = {
       badges: ['Python', 'ArcPy', 'Machine Learning', 'CNN', 'GNN', 'PyTorch', 'Unity', 'Blender', 'ArcGIS', 'ArcGIS Maps SDK for Unity', 'Data Pipeline'], 
     },
   ],
-  additionalInformation: 'I currently hold a <b>three-year post-study work visa</b> valid until June 25, 2028. I am available to commence employment with two weeks\' notice to my current employer.'
+  additionalInformation: 'I currently hold a <b>three-year post-study work visa</b> valid until June 25, 2028. I am available for an immediate start.'
 };
