@@ -25,8 +25,9 @@ module.exports = {
         'Microsoft stack: C#, .NET, Web API, MVC, EntityFramework, .NET MAUI.',
         'Modern web stack: JavaScript, TypeScript, NodeJS, React, Redux, NextJS, HTML5, CSS3, MongoDB, Vitest.',
         'UI/UX: Figma, Shadcn UI, Tailwind CSS, SCSS, Material UI, Bootstrap.',
-        'Infrastructure: Azure, AWS, MySQL, SQL Server, Docker, Kubernetes.',
-        'Other: Java, Spring Boot, Python, Django, React Native, C, Matlab, ArcGIS, Blender.',
+        'Infrastructure: Azure, AWS, MySQL, SQL Server, PostgreSQL, Docker, Kubernetes.',
+        'AI: Practical experience integrating LLMs and AI tooling into development workflows; prompt engineering',
+        'Other: Java, Spring Boot, Python, Django, React Native, C, C++, Linux, Matlab, ArcGIS, Blender.',
         'Experienced in web development & integration using industry standard technologies and frameworks.',
         'Experienced with all stages of the Software Development Life cycle and agile methodologies.',
         'Experienced and knowledge of best practices for software design and architecture.'
@@ -47,12 +48,32 @@ module.exports = {
       examples: [
         'Adapting very quickly to various working environments.',
         'Build up relevant domain knowledge in a short time frame.',
-        'Confident in learning and picking up new technology stacks and frameworks.',
+        'Confident in learning and picking up new technology stacks, AI tools, and frameworks.',
         'Work on side projects in free time.'
       ]
     }
   ],
   experience: [
+        {
+      company: 'MAS Zengrange',
+      location: 'Lower Hutt, Wellington',
+      roles: [
+        {
+          title: 'Software Test Engineer (Full-time)',
+          start: 'Jun 2026',
+          end: 'Current',
+          blurb: 'Developing an automated end-to-end testing capability for specialised embedded touchscreen systems, replacing a previously manual-only testing process.',
+          items: [
+            'Architected and delivered a Python-based black-box testing framework that remotely operates physical Linux touchscreen devices, captures their displays, and validates workflows from an end-user perspective—establishing the organisation’s first repeatable automated regression-testing capability.',
+            'Applied agentic coding with Claude Code & Codex throughout design, implementation, testing, troubleshooting, and documentation, accelerating delivery of a production-ready solution while maintaining human review and automated quality checks.',
+            'Created a test pipeline that converts manual Word test cases into structured specifications and executable automation bindings, reducing repetitive implementation effort and improving traceability between requirements, actions, and results.',
+            'Engineered parallel multi-device execution, automatic recovery procedures, and role-aware test scenarios, allowing complex workflows involving multiple physical devices to be tested consistently.',
+            'Integrated automated reporting with Pytest, JUnit, HTML reports, and Squash TM, giving testers and stakeholders clear evidence of results while reducing reliance on repetitive manual execution.'
+          ]
+        }
+      ],
+      badges: ['Python', 'Pytest', 'C', 'C++', 'SSH', 'Linux/X11', 'OCR', 'YAML', 'CI/CD', 'Squash TM', 'YouTrack', 'Claude Code', 'Codex'],
+    },
     {
       company: 'Spiritx',
       location: 'Auckland',
@@ -60,7 +81,7 @@ module.exports = {
         {
           title: 'Software Engineer (Full-time)',
           start: 'Jun 2025',
-          end: 'Current',
+          end: 'May 2026',
           blurb: 'Embedded within a cross-product engineering team spanning Kiwi Square (web), Insurspy (web), and Fresh Direct (React Native), shipping features from architecture through rollout—owning Kiwi Square’s casual-job pillar, delivering Insurspy’s Compare Power flow, and guiding Fresh Direct through its app-store launch.',
           items: [
             'Owned <a href="https://kiwisquare.co.nz/" target="_blank" rel="noreferrer noopener">Kiwi Square</a>’s casual-job pillar end-to-end, pairing a localized Next.js/TypeScript + Redux experience with .NET 8/EF Core APIs and ingestion pipelines so seekers can search, filter, and save thousands of live NZ listings.',
@@ -136,5 +157,5 @@ module.exports = {
       badges: ['Python', 'ArcPy', 'Machine Learning', 'CNN', 'GNN', 'PyTorch', 'Unity', 'Blender', 'ArcGIS', 'ArcGIS Maps SDK for Unity', 'Data Pipeline'], 
     },
   ],
-  additionalInformation: 'I currently hold a <b>three-year post-study work visa</b> valid until June 25, 2028. I am available for an immediate start.'
+  additionalInformation: 'I currently hold a <b>three-year post-study work visa</b> valid until June 25, 2028. I am available to start after a two-week notice period.'
 };
